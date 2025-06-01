@@ -1,0 +1,67 @@
+p {
+    font-size: 10;
+    width: 98%;
+    background-color: rgb(243, 242, 230);
+    border-radius: 15px;
+    border: 1;
+    padding: 10px 20px;
+}
+
+
+
+div.pass {
+    font-size: 10;
+    width: 98%;
+    background-color: rgb(243, 242, 230);
+    border-radius: 15px;
+    border: 1;
+    padding: 10px 20px;
+}
+
+div.fonte {
+    font-size: 140%;    
+    font-style:oblique;
+    font-weight: bold;
+    color: chocolate;
+
+    
+}
+
+table.agencia {
+    border: 1px solid;    
+    margin: 20px; /* não funciona */
+    background-color:white;
+    border-radius: 15px;
+    padding: 6px;
+}
+
+table.form {
+    border: 1px solid;    
+    margin: 20px; /* não funciona */
+    padding: 6px;
+}
+
+table.sair {
+    border: 0px solid;    
+    margin: 20px; /* não funciona */
+    padding: 2px;
+
+}
+
+td.sa {
+    border: 0px solid;    
+    margin: 20px; /* não funciona */
+    padding: 6px;
+  }
+
+
+img {
+    width: 120 ;
+    height: 100;
+    max-width:200px;
+    max-height:150px;
+}
+
+
+
+

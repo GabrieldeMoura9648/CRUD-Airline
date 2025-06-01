@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(238, 181, 141);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho{
+    background-color: #28a745;
+}
+
+.tabela{
+    background-color: #ffffff69;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+input {
+    margin: 5px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  margin: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-salvar {
+  background-color: #28a745;
+}
+
+.btn-limpar {
+  background-color: #6c757d;
+}
+
+.btn-editar {
+  background-color: #ffc107;
+  color: #000000;
+}
+
+.btn-excluir {
+  background-color: #dc3545;
+  color: #000000;
+}

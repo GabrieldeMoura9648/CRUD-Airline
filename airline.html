@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tabs.css">
+    <script src="bd.js"></script>
+    <script src="cookies.js"></script>
+    <title>Airline</title>
+</head>
+<body onload="logado()">   
+
+    <header>
+        <nav>
+           <table class="sair">
+                <tr>
+                    <td class="sa"><p id="nome"></p></td>
+                    <td class="sa"><button type="submit" onclick="logaout()">Sair</button></td>                              
+                </tr>                  
+           </table>        
+        </nav>       
+    </header>
+        
+    <div class="pass">
+        <form class="viagens" >
+        <p class="alinhar">
+        <table class="agencia">
+            <p id="nome"></p>
+            <tr>
+            <h1>Agência de viagem Quick</h1>                      
+                <td>
+                    <h3>Faça sua Reserva</h3>
+                    <div><div>E-mail address:</div><input type="text" id="email" name="email"></div>
+                    <div><div>Nome:</div><input type="text" name="users" id="users" size="10"></div>
+                    <div><div>Origem:</div><input type="text" name="origem" id="origem"></div>
+                    <div><div>Destination:</div><input type="text" name="destino" id="destino"></div>
+                    <div><div>Start date (DD/MM/YY):</div><input type="date" id="startdate" size="8"></div>
+                    <div><div>End date (DD/MM/YY):</div><input type="date" id="enddate" size="8"></div>                                                   
+                </td>
+                <td>          
+                    <img src="img/aviao2.png">&nbsp;<small><input type="submit" name="voo" onclick="reserva()" value="Reserva" ></small>
+                    <img src="img/carro.jpg">&nbsp;<small><input type="submit" name="carros" value="Aluguel" disabled="true"></small>
+                    <img src="img/hotel.png">&nbsp;<small><input type="submit" name="hotels" value="Hotel" disabled="true"></small>
+                    <img src="img/pass.png">&nbsp;<small><input type="submit" name="conta" value="Editar" disabled="true"></small>                                
+                </td>  
+                <button type="submit" onclick="reservado()">Verificar</button>              
+             </tr>            
+            </th>
+        </table>
+        </p>
+    </form>    
+    </div>
+   
+</body>
+</html>

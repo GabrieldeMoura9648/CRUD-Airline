@@ -1,0 +1,89 @@
+button {
+    font-size: 18px;
+    font-weight: 600;
+    background-color:darkgrey;
+    border-radius: 12px;
+    border: 0;
+    padding: 6px 20px;
+    cursor: pointer;    
+  }
+
+  button.limpar {
+    font-size: 22px;
+    font-weight: 100;    
+    border-radius: 10px;
+    border: 1;
+    padding: 5x 10px;
+    width: 770px;
+
+  }
+
+  input {
+    font-size: 22px;
+    font-weight: 100;    
+    border-radius: 10px;
+    border: 1;
+    padding: 5px 10px ;
+    width: 290px;
+  }
+
+  input.cod {
+    font-size: 22px;
+    font-weight: 100;    
+    border-radius: 10px;
+    border: 1;
+    padding: 5x 10px;
+    width: 110px;
+
+  }
+
+  form.store {
+    font-size: 10;
+    width: 98%;
+    background-color: lightskyblue;
+    border-radius: 15px;
+    border: 1;
+    padding: 10px 20px;
+  }
+
+  form.table {
+    font-size: 10;
+    width: 98%;
+    background-color: rgb(178, 202, 218);
+    border-radius: 15px;
+    border: 1;
+    padding: 10px 20px;
+
+  }
+
+  table {
+    width: 290px;
+    font-size: 30px;
+    font-weight: 100;    
+    border: 1;
+    padding: 5px 10px ;
+  }
+
+  tr.reserva {
+    border: 1px solid;    
+    margin: 20px; /* não funciona */
+    padding: 6px;
+  }
+
+  td {
+    border: 1px solid;    
+    margin: 20px; /* não funciona */
+    padding: 6px;
+  }
+
+  img {    
+    width: 120 ;
+    height: 100;
+    max-width:200px;
+    max-height:150px;
+}
+
+
+
+
+  

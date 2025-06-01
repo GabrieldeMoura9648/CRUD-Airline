@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Administrador - Airline</title>
+  <link rel="stylesheet" href="administrador.css">
+</head>
+<body onload="local(); tabelaUsuarios()"> <!-- Puxa o local e a tabelaUsuarios ao carregar -->
+
+  <nav>
+    <h2>Cadastro de Usuários</h2>
+    <!-- Campo de busca -->
+    <input type="text" id="searchInput" placeholder="Buscar por nome ou email" oninput="filtrarUsuarios()" />
+  </nav> 
+
+  <main>
+    <form id="userForm" onsubmit="event.preventDefault(); adicionarUsuario();"> <!--Impede recarregamento da página-->
+      <input type="hidden"    id="id"> <!--Campo oculto para armazenar ID ao editar-->
+      <input type="text"      id="usuario"    placeholder="Nome"  required/> |
+      <input type="email"     id="loginUser"  placeholder="Email" required/> |
+      <input type="password"  id="senhaUser"  placeholder="Senha" required/> |
+
+      <button type="submit" class="btn btn-salvar">Salvar</button>
+      |
+      <button type="button" class="btn btn-limpar" onclick="limpar()">Limpar</button>
+    </form>
+
+    <h3>Lista de Usuários</h3>
+    <table id="userTable" class="tabela">
+      <thead class="cabecalho">
+        <tr><th>Nome</th><th>Email</th><th>Senha</th><th>Ações</th></tr>
+      </thead>
+      <tbody>
+        <!--Os usuários serão adicionados-->
+      </tbody>
+    </table>
+  </main>
+
+  <script src="bd.js"></script> <!-- Script com a lógica -->
+</body>
+</html>
